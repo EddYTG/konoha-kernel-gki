@@ -372,4 +372,5 @@ jobs:
             
             Commit: ${{ github.sha }}
             Ref: ${{ github.ref }}
+          prerelease: true
           files: release_assets/*
